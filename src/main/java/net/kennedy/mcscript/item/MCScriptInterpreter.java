@@ -26,7 +26,7 @@ public class MCScriptInterpreter extends Item {
                 (ServerPlayer) player,
                 new SimpleMenuProvider(
                     (id, inv, plyr) -> new ScriptEditorMenu(id, inv),
-                    Component.translatable("menu.mcscript.script_editor")
+                    Component.translatable("")
                 )
             );
         }
